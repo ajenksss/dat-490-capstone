@@ -1,0 +1,30 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data (download from CDC, see data/README.md)
+data/raw/
+*.XPT
+
+# Cleaned data (download from Kaggle or regenerate, see data/README.md)
+cleaned/
+*.parquet
+*.npy
+
+# Pipeline outputs
+documentation/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.claude/
